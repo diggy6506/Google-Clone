@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(32, 33, 36);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.navigation-bar {
+  display: flex;
+  padding: 6px;
+  height: 54px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.about,
+.store {
+  margin: 0 5px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  height: fit-content;
+  color: rgb(189, 193, 198);
+}
+
+.store {
+  margin-left: 15px;
+}
+
+.about:hover,
+.store:hover,
+.gmail:hover,
+.images:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.gmail,
+.images {
+  margin: 0 0 0 15px;
+  font-size: 13px;
+  font-weight: 500;
+  height: fit-content;
+  padding: 5px 0;
+  text-decoration: none;
+  color: white;
+}
+
+.images {
+  padding-right: 15px;
+}
+
+.profile {
+  height: 48px;
+  width: 48px;
+  align-content: center;
+}
+
+.profile-picture {
+  width: 32px;
+  border-radius: 16px;
+  margin-left: 24px;
+  position: relative;
+  bottom: 2px;
+  left: 2px;
+}
+
+.nav-right-section {
+  display: flex;
+  margin: 0 4px 0 32px;
+}
+
+.nav-right {
+  width: fit-content;
+}
